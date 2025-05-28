@@ -1,1 +1,1 @@
-# FIngerFrenzyy
+# FingerFrenzyy
