@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './home.css'
 
+const logo = "./assets/icons/logo.png"
 const strawberry = "./assets/fruits/Strawberry.png";
 const grapes = "./assets/fruits/Grape.png";
 const banana = "./assets/fruits/Banana.png";
@@ -19,6 +20,7 @@ const Home = () => {
         <img src={strawberry} className="strawberry rotate" alt="fruit" />
         <div className="center">
           <div className="zoom-in">
+            <img src={logo} alt="logo" className='logo'/>
             <h3>Welcome to <span>Fingger Frenzyy!</span></h3>
             <div className="home-buttons-nav">
               <div className="button">
