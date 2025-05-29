@@ -1,0 +1,12 @@
+a{
+  all: unset;
+}
+a:hover{
+  all: unset;
+}
+.is-mobile-container{
+  margin-top: 300px;
+}
+.is-mobile-message{
+  text-align: center;
+}
