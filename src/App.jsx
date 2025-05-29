@@ -2,6 +2,7 @@ import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home/Home'
 import Leaderboard from './pages/leaderboard/Leaderboard'
+import GamePage from './pages/game/game'
 
 const routes = [
   {
@@ -13,6 +14,11 @@ const routes = [
     path: '/leaderboard',
     exact: true,
     children: <Leaderboard/>
+  },
+  {
+    path: '/game',
+    exact: true,
+    children: <GamePage/>
   },
 ]
 

@@ -162,3 +162,15 @@ h3 span{
 .logo{
   width: 250px;
 }
+form .text-input{
+  margin: 0;
+  background: #b3b4e3;
+  border: none;
+  border-radius: 12px;
+  padding: 4px 16px;
+  margin-bottom: 16px;
+}
+form .text-input:focus{
+  outline-style: none;
+  box-shadow: none;
+}
