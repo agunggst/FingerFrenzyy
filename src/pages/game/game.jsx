@@ -1,6 +1,10 @@
+import HandTracker from "../../components/HandTracker"
+
 const GamePage = () => {
   return (
-    <>hello</>
+    <>
+      <HandTracker/>
+    </>
   )
 }
 
